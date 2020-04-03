@@ -1,0 +1,29 @@
+/*
+ * Copyright (c) 2019-present, The Yumcoder Authors. All rights reserved.
+ * 
+ * This source code is licensed under the license found in the LICENSE file in
+ * the root directory of this source tree.
+ */
+
+// @import '~antd/lib/style/themes/default.less';
+@import '~antd/dist/antd.compact.less';
+// @import '~antd/dist/antd.less';
+
+.box-shadow(@arguments) {
+  -webkit-box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  box-shadow: @arguments;
+}
+
+.user-select(@argument: none) {
+  -webkit-user-select: @argument;
+  -moz-user-select: @argument;
+  -ms-user-select: @argument;
+  user-select: @argument;
+}
+
+.mixin-center() {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

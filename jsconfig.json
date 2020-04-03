@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@": ["."],
+      "@js": ["js"],
+      "@pages": ["pages"],
+      "@components": ["components"],
+      "@locales": ["locales/i18n"]
+    }
+  }
+}
